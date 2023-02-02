@@ -1,0 +1,21 @@
+.bl-prp-bg {
+  background-color: rgb(104, 27, 228);
+}
+
+.bl-prp-brd {
+  border: 1px solid rgb(104, 27, 228);
+  color: rgb(104, 27, 228);
+  border-radius: 5px;
+}
+
+.social i {
+  color: gray;
+}
+
+nav form {
+  width: 360px;
+}
+nav .bl-prp-brd {
+  width: 140px;
+  height: 43px;
+}/*# sourceMappingURL=styles.css.map */
