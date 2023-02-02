@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="bg-body-secondary">
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid flex-nowrap">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,18 +26,18 @@
         <img class="mx-3"
           src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt=""
           height="40">
-        <form class="d-flex">
-          <input class="form-control me-2 d-none d-md-block" type="search" placeholder="Search" aria-label="Search">
+        <form class="d-flex position-relative me-3 mb-3">
+          <input class="form-control me-2 d-none d-md-block sz" type="search" placeholder="Search" aria-label="Search">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"
-            class="crayons-icon c-btn__icon" focusable="false">
+            class="crayons-icon c-btn__icon position-absolute top-0 start-100" focusable="false">
             <path
               d="m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z">
             </path>
           </svg>
         </form>
         <div class="d-flex">
-          <a class="d-none d-md-block" href="#">Log in</a>
-          <button class="mx-3 bl-prp-brd">Create account</button>
+          <button class="border border-0 bg-white d-none d-md-block">Log in</button>
+          <button class="mx-3 bl-prp-brd bg-white">Create account</button>
         </div>
       </div>
   </header>
@@ -46,7 +46,7 @@
       <section class="col-10 col-lg-3">
 
         <div class="collapse navbar-collapse d-md-block" id="navbarText">
-          <aside class="container">
+          <aside class="container lft">
             <header class="d-flex justify-content-between d-md-none">
               <h5>DEV Community 👩‍💻👨‍💻</h5>
               <button class="border border-0 bg-white navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -422,12 +422,53 @@
                   </svg>Terms of use</a>
               </li>
             </ul>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between mb-4">
               <a class="social" href="twitter"><i class="fa-brands fa-twitter fa-xl"></i></a>
               <a class="social" href="facebook"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
               <a class="social" href="github"><i class="fa-brands fa-github fa-xl"></i></a>
               <a class="social" href="instagram"><i class="fa-brands fa-instagram fa-xl"></i></a>
               <a class="social" href="twitch"><i class="fa-brands fa-twitch fa-xl"></i></a>
+            </div>
+            <h5>Popular Tags</h5>
+            <div class="overflow-y-auto d-none d-md-block mb-4" style="max-height: 42vh;">
+              <ul>
+                <li class="ht"><a class="pt" href="">#javascript</a></li>
+                <li class="ht"><a class="pt" href="">#webdev</a></li>
+                <li class="ht"><a class="pt" href="">#beginners</a></li>
+                <li class="ht"><a class="pt" href="">#programing</a></li>
+                <li class="ht"><a class="pt" href="">#tutorial</a></li>
+                <li class="ht"><a class="pt" href="">#react</a></li>
+                <li class="ht"><a class="pt" href="">#python</a></li>
+                <li class="ht"><a class="pt" href="">#productivity</a></li>
+                <li class="ht"><a class="pt" href="">#devops</a></li>
+                <li class="ht"><a class="pt" href="">#aws</a></li>
+                <li class="ht"><a class="pt" href="">#opensource</a></li>
+                <li class="ht"><a class="pt" href="">career</a></li>
+                <li class="ht"><a class="pt" href="">#css</a></li>
+                <li class="ht"><a class="pt" href="">#node</a></li>
+                <li class="ht"><a class="pt" href="">#typescript</a></li>
+                <li class="ht"><a class="pt" href="">#news</a></li>
+                <li class="ht"><a class="pt" href="">#github</a></li>
+                <li class="ht"><a class="pt" href="">#testing</a></li>
+                <li class="ht"><a class="pt" href="">#android</a></li>
+                <li class="ht"><a class="pt" href="">#discuss</a></li>
+                <li class="ht"><a class="pt" href="">#java</a></li>
+                <li class="ht"><a class="pt" href="">#html</a></li>
+                <li class="ht"><a class="pt" href="">#codenewbie</a></li>
+                <li class="ht"><a class="pt" href="">#cloud</a></li>
+                <li class="ht"><a class="pt" href="">#angular</a></li>
+                <li class="ht"><a class="pt" href="">#database</a></li>
+                <li class="ht"><a class="pt" href="">#security</a></li>
+                <li class="ht"><a class="pt" href="">#api</a></li>
+                <li class="ht"><a class="pt" href="">#computerscience</a></li>
+                <li class="ht"><a class="pt" href="">#machinelearning</a></li>
+              </ul>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h6>Nearly 700 developers have contributed to the Forem codebase that powers DEV and other communities. 🤯</h6>
+                <h4>Thank you!</h4>
+              </div>
             </div>
           </aside>
         </div>
