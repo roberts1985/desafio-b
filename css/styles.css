@@ -20,7 +20,41 @@ nav .bl-prp-brd {
   height: 43px;
 }
 
+.ul-not {
+  text-decoration: none;
+}
+
+.pt {
+  color: black;
+  text-decoration: none;
+}
+
+.ht {
+  height: 40px;
+  list-style-type: none;
+}
+
+.log {
+  width: 205px;
+  height: 38px;
+  background-color: white;
+}
+
 .crayons-logo__image {
   width: 30px;
   height: 30px;
-} /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
+.lft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e8eff5;
+  z-index: 1;
+}
+
+@media screen and (min-width: 767px) {
+  .lft {
+    position: static;
+    z-index: 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
