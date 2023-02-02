@@ -21,6 +21,7 @@ nav{
         height: 43px;
     }
 }
+
 .ul-not{
     text-decoration: none;
 }
@@ -54,6 +55,9 @@ nav{
         position: static;
         z-index: 0;
         
+    }
+    .ham{
+        display: none;
     }
     
 }
