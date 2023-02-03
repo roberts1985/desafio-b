@@ -1,0 +1,86 @@
+.bl-prp-bg{
+    background-color: rgb(104, 27, 228);
+    color: white;
+    width: 328px;
+    height: 38px;
+}
+.bl-prp-brd{
+    border: 1px solid  rgb(104, 27, 228);
+    color:  rgb(104, 27, 228);
+    border-radius: 5px;
+}
+.social{
+    i{
+        color: gray;
+        
+    }
+}
+nav{
+    form{
+        width: 360px;
+    }
+    .bl-prp-brd{
+        width: 140px;
+        height: 43px;
+    }
+}
+.pink{
+    background-color: rgb(248, 128, 148);
+}
+.ul-not{
+    text-decoration: none;
+}
+.pt{
+    color: black;
+    text-decoration: none;
+}
+.ht{
+    height: 40px;
+    list-style-type: none;
+}
+.log{
+    width: 205px;
+    height: 38px;
+    background-color:white;
+}
+.crayons-logo__image {
+    width: 30px;
+    height: 30px;
+  }/*# sourceMappingURL=styles.css.map */
+.lft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#e8eff5;
+    z-index: 1035;
+    
+}
+
+footer{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgba(21, 8, 138, 0.547);
+}
+
+li{
+    list-style:none
+}
+@media screen and (min-width:"767px") {
+    .lft{
+        position: static;
+        z-index: 0;
+        
+    }
+    .ham{
+        display: none;
+    }
+    .back-f{
+        height: 42vh;
+    }
+    .bl-prp-bg{
+        width: 225px;
+    
+    }
+
+
+}
