@@ -1,7 +1,7 @@
 .bl-prp-bg{
     background-color: rgb(104, 27, 228);
     color: white;
-    width: 225px;
+    width: 328px;
     height: 38px;
 }
 .bl-prp-brd{
@@ -52,7 +52,7 @@ nav{
     top: 0;
     left: 0;
     background-color:#e8eff5;
-    z-index: 1;
+    z-index: 1035;
     
 }
 
@@ -74,7 +74,13 @@ li{
     .ham{
         display: none;
     }
+    .back-f{
+        height: 42vh;
+    }
+    .bl-prp-bg{
+        width: 225px;
     
+    }
+
+
 }
-
-
